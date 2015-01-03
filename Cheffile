@@ -3,6 +3,9 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'git'
 cookbook 'rvm',
   :git => 'https://github.com/fnichol/chef-rvm'
 
