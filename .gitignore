@@ -1,0 +1,11 @@
+# Created by https://www.gitignore.io
+
+### Vagrant ###
+.vagrant/
+
+
+### librarian-chef ###
+# librarian-chef - https://github.com/applicationsonline/librarian-chef
+.tmp/
+cookbooks/
+
