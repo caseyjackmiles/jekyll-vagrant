@@ -68,4 +68,11 @@ Vagrant.configure(2) do |config|
   # config.vm.provision "shell", inline <<-SHELL
   #   sudo apt-get install apache2
   # SHELL
+
+
+  config.vm.provision "chef_solo" do |chef|
+    chef.cookbooks_path = ["cookbooks"]
+    chef.add_recipe "rvm::vagrant"
+    chef.add_recipe "rvm::system"
+  end
 end

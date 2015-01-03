@@ -1,0 +1,16 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    chef_gem (0.1.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-rvm
+  ref: master
+  sha: 85b6501f11e10bf9aab897da497b185186a9a040
+  specs:
+    rvm (0.10.1)
+      chef_gem (>= 0.0.0)
+
+DEPENDENCIES
+  rvm (>= 0)
+
