@@ -19,3 +19,6 @@
 [submodule "cookbooks/build-essential"]
 	path = cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/chef_gem"]
+	path = cookbooks/chef_gem
+	url = https://github.com/hw-cookbooks/chef_gem.git
